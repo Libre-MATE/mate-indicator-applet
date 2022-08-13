@@ -4,9 +4,8 @@ AC_INIT([mate-indicator-applet],
         [mate-indicator-applet],
         [https://github.com/Libre-MATE/mate-indicator-applet/])
 AC_PREREQ(2.60)
-
+AC_COPYRIGHT([Copyright (C) 2022 Libre MATE])
 AC_CONFIG_SRCDIR(src/applet-main.c)
-
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([no-dist-gzip dist-xz check-news])
 
