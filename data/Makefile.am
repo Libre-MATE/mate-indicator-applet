@@ -12,7 +12,7 @@ applet_in_files = \
 applet_DATA     = $(applet_in_files:.mate-panel-applet.desktop.in=.mate-panel-applet)
 
 %.mate-panel-applet.desktop.in: %.mate-panel-applet.desktop.in.in Makefile
-	$(AM_V_GEN)sed \
+	$(AM_V_GEN)$(SED) \
 	    -e "s|\@LIBEXECDIR\@|$(libexecdir)|" \
 	    $< > $@
 
@@ -31,7 +31,7 @@ service_in_files = \
 service_DATA     = $(service_in_files:.service.in=.service)
 
 %.service: %.service.in Makefile
-	$(AM_V_GEN)sed \
+	$(AM_V_GEN)$(SED) \
 	    -e "s|\@LIBEXECDIR\@|$(libexecdir)|" \
 	    $< > $@
 
