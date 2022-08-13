@@ -8,7 +8,7 @@ AC_INIT([mate-indicator-applet],
 
 AC_CONFIG_SRCDIR(src/applet-main.c)
 
-AM_CONFIG_HEADER(config.h)
+AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([no-dist-gzip dist-xz check-news])
 
 AM_MAINTAINER_MODE
