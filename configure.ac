@@ -1,6 +1,11 @@
 AC_PREREQ(2.53)
 
-AC_INIT([mate-indicator-applet], [1.26.0],[https://github.com/mate-desktop/mate-indicator-applet/issues])
+AC_INIT([mate-indicator-applet],
+        [1.26.0],
+        [https://github.com/Libre-MATE/mate-indicator-applet/issues],
+        [mate-indicator-applet],
+        [https://github.com/Libre-MATE/mate-indicator-applet/])
+
 AC_CONFIG_SRCDIR(src/applet-main.c)
 
 AM_CONFIG_HEADER(config.h)
