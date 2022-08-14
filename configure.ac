@@ -23,7 +23,8 @@ AC_PREREQ(2.60)
 AC_COPYRIGHT([Copyright (C) 2022 Libre MATE])
 AC_CONFIG_SRCDIR(src/applet-main.c)
 AC_CONFIG_HEADERS([config.h])
-AM_INIT_AUTOMAKE([1.11 no-dist-gzip dist-xz silent-rules check-news])
+AM_INIT_AUTOMAKE([1.11 no-dist-gzip dist-xz check-news])
+AM_SILENT_RULES([yes])
 AC_CONFIG_MACRO_DIR([m4])
 AM_MAINTAINER_MODE
 
