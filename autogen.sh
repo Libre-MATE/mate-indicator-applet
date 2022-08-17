@@ -17,6 +17,8 @@ which mate-autogen || {
     exit 1
 }
 
+REQUIRED_AUTOMAKE_VERSION=1.11
+REQUIRED_AUTORECONF_VERSION=2.60
 REQUIRED_GTK_DOC_VERSION=1.13
 
 . mate-autogen
