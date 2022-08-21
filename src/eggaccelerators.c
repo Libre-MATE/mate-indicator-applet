@@ -239,7 +239,7 @@ gboolean egg_accelerator_parse_virtual(
       if (keyval == 0) bad_keyval = TRUE;
 
       accelerator += len;
-      len -= len;
+      len = 0;
     }
   }
 
